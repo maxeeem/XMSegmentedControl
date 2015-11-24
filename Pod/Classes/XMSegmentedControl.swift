@@ -105,6 +105,19 @@ public class XMSegmentedControl: UIView {
     /// Sets the segmented control content type to `Text` or `Icon`
     public var contentType:XMContentType = .Text
     
+    /// Holds currently selected index as well as starting index
+    public var selectedIndex: Int = 0 {
+        willSet {
+            let maxIndex = contentType == .Text ? segmentTitle.count : segmentIcon.count
+            
+            if newValue < 0 || newValue > maxIndex { return }
+        }
+        
+        didSet {
+            update()
+        }
+    }
+    
     /// Initializes and returns a newly allocated XMSegmentedControl object with the specified frame rectangle. It sets the segments of the control from the given `segmentTitle` array and the highlight style for the selected item.
     public init (frame: CGRect, segmentTitle: [String], selectedItemHighlightStyle:XMSelectedItemHighlightStyle) {
         super.init (frame: frame)
@@ -162,12 +175,12 @@ public class XMSegmentedControl: UIView {
                 case .Icon:
                     tab.imageEdgeInsets = UIEdgeInsets(top: 12, left: 12, bottom: 12, right: 12)
                     tab.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
-                    tab.tintColor = i == 0 ? highlightTint : tint
+                    tab.tintColor = i == selectedIndex ? highlightTint : tint
                     tab.setImage(segmentIcon[i], forState: .Normal)
                     
                 case .Text:
                     tab.setTitle(segmentTitle[i], forState: .Normal)
-                    tab.setTitleColor(i == 0 ? highlightTint : tint, forState: .Normal)
+                    tab.setTitleColor(i == selectedIndex ? highlightTint : tint, forState: .Normal)
                     tab.titleLabel?.font = font
                 }
                 
@@ -196,14 +209,14 @@ public class XMSegmentedControl: UIView {
         if contentType == .Text {
             let tabBarSections:Int = segmentTitle.count
             let sectionWidth = totalWidth / CGFloat(tabBarSections)
-            addHighlightView(startingPosition: 0, width: sectionWidth)
+            addHighlightView(startingPosition: sectionWidth * CGFloat(selectedIndex), width: sectionWidth)
             addSegments(startingPosition: 0, sections: tabBarSections, width: sectionWidth, height: self.frame.height)
         } else {
             let tabBarSections:Int = segmentIcon.count
             let sectionWidth = totalWidth / 6
             let availableSpace = totalWidth - (sectionWidth * CGFloat(6 - tabBarSections))
             let startingXPosition = (totalWidth - availableSpace) / 2
-            addHighlightView(startingPosition: startingXPosition, width: sectionWidth)
+            addHighlightView(startingPosition: startingXPosition + sectionWidth * CGFloat(selectedIndex), width: sectionWidth)
             addSegments(startingPosition: startingXPosition, sections: tabBarSections, width: sectionWidth, height: self.frame.height)
         }
     }
@@ -231,7 +244,9 @@ public class XMSegmentedControl: UIView {
                 sender.setTitleColor(self.highlightTint, forState: .Normal)
             }
             
-            }, completion: nil)
+            }, completion: { (done) in
+                self.selectedIndex = sender.tag
+            })
         
         delegate?.xmSegmentedControl(self, selectedSegment: sender.tag)
     }
