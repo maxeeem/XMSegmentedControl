@@ -7,109 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2477018F4ECF72E984106CB3187D9018 /* Pods-XMSegmentedControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90314A2BCFE578149030608BABC13179 /* Pods-XMSegmentedControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47EF90A2956CA921F50108503A0D7659 /* XMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B4B568E0E4F27365CA127193A45BC0 /* XMSegmentedControl.swift */; };
-		4CABAFD5BF0D535F8775CC7B9584A577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0527766346ABBF28CCB16914B83A8492 /* Foundation.framework */; };
-		4DCF23BC4545CC5EE652F516C7A77A3F /* Pods-XMSegmentedControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A0057533E03EC03897205C24DA0708 /* Pods-XMSegmentedControl_Tests-dummy.m */; };
-		637794CC5EC94FD2FB0871DFB29FD684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0527766346ABBF28CCB16914B83A8492 /* Foundation.framework */; };
-		768CE7169D6225D1FC8C928A7325D046 /* XMSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C825342FB06B4B8687DBD31566AD41 /* XMSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85AFE5E1C2AA965128FD45CF934D57DE /* Pods-XMSegmentedControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 650252E8AF8355815A7A8163F5C781E3 /* Pods-XMSegmentedControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D102A0480C053CE19457DFD24014F9F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0527766346ABBF28CCB16914B83A8492 /* Foundation.framework */; };
-		D22182FAF40519F2CFB94B650CD59E5B /* Pods-XMSegmentedControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4CBDD53193FA1689E32641C25B1108 /* Pods-XMSegmentedControl_Example-dummy.m */; };
-		E72B6A61F309B8B0073D6B46F03F8C47 /* XMSegmentedControl.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62C7A9B0885E5B00D2FCF4A2137DD26C /* XMSegmentedControl.bundle */; };
-		F7CD11F9DB2EF4ED72FF5C962960BC4A /* XMSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E95BEE585C0370F969D7ACC439F4B830 /* XMSegmentedControl-dummy.m */; };
+		34029175E2380521FE2FF847412856DC /* XMSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D03494507EC372B787FDE6013E626D3 /* XMSegmentedControl-dummy.m */; };
+		3C5EA5EECAAAE297E64E6731913C10DD /* XMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4602AAE2F784B593A66EC73F24B801E6 /* XMSegmentedControl.swift */; };
+		40A5CAABC9B63E792777C9522E95630A /* Pods-XMSegmentedControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C37B2CDE7CF19E55C5A565F71876598E /* Pods-XMSegmentedControl_Example-dummy.m */; };
+		51FADBF8379C92F0AA50C804A1EAE49D /* XMSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D311A2C21171597EB37A475165C15F /* XMSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76FB9502D855D09C4D2BA09E68E5041B /* XMSegmentedControl.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 492A2F421EF1D4DC6416D7F4448984F2 /* XMSegmentedControl.bundle */; };
+		82C7A3CEAA3AD599B26F0C946CE611C6 /* Pods-XMSegmentedControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E974B4FE244214C7B9F77D22361D0 /* Pods-XMSegmentedControl_Tests-dummy.m */; };
+		990581B535A444C07746FF43A7ADCD0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A2B5D5EE47DD07141917BF8700D5B60F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C41D645081C779046CD1694EF4FB9814 /* Pods-XMSegmentedControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A91DEB1CB94ACAC6E0EFD24981070813 /* Pods-XMSegmentedControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4C2294B0DB3959B6369B947A4C1594F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DE8625329F780B82F8A74AA2FC4ACBD4 /* Pods-XMSegmentedControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CF6E044F169937C15159EAFD49356C /* Pods-XMSegmentedControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8C5BD7CFC08FF1799A79BA1E1B0E4F1E /* PBXContainerItemProxy */ = {
+		58EF54A4381EC51A122380610460CACB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D5066DD063CF59AFBD450F5E2FDEEFF6;
+			remoteGlobalIDString = 9A7A44BD825F89F751CE7B54974DDE3E;
 			remoteInfo = XMSegmentedControl;
 		};
-		96A187180D0A73A8FAD753F4F9A50AD0 /* PBXContainerItemProxy */ = {
+		70DF7D0F4BF5FC28B74E0574F41AA06D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D5066DD063CF59AFBD450F5E2FDEEFF6;
-			remoteInfo = XMSegmentedControl;
-		};
-		CFF698435089F4B02573565EADF77429 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF5C3949B1A921A6B7F8732D78F10000;
+			remoteGlobalIDString = 355C004776EAB799631E9954945B807B;
 			remoteInfo = "XMSegmentedControl-XMSegmentedControl";
+		};
+		A44182AFE3F0837C51FE3F7924CB94CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7A44BD825F89F751CE7B54974DDE3E;
+			remoteInfo = XMSegmentedControl;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0527766346ABBF28CCB16914B83A8492 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		054F30DAED31B5A7DF3DEBAAD8123ED7 /* Pods_XMSegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMSegmentedControl_Example.framework; path = "Pods-XMSegmentedControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C35397213F18CC74F6E29524C8B4D04 /* Pods-XMSegmentedControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMSegmentedControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0CDB3C43824266D6BED02C392BECC23B /* XMSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
-		11A0057533E03EC03897205C24DA0708 /* Pods-XMSegmentedControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMSegmentedControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		0D03494507EC372B787FDE6013E626D3 /* XMSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMSegmentedControl-dummy.m"; sourceTree = "<group>"; };
 		135F5D92BEFDD8A48A3A36C90ABBEBB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BF1ADBEE08E9B961C077DCB5A3D7715 /* Pods-XMSegmentedControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMSegmentedControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D82A3D3B28B0167C0A0765891EDC806 /* Pods-XMSegmentedControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMSegmentedControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1E16063C5B1A75A1232035A8ED420E72 /* Pods-XMSegmentedControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMSegmentedControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		26C83727283023284095345BB1DE6E2B /* XMSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EE1EEB86721F5FDA904B0196EBC4E8 /* Pods-XMSegmentedControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMSegmentedControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2B41D59A4861FCFE8773CFBC390D51A8 /* Pods-XMSegmentedControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMSegmentedControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3A4799946C72BE1B3F7BA0B0A5B79F7B /* Pods-XMSegmentedControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMSegmentedControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		38FCA4AB5B96225B923B0EC5379869BB /* Pods-XMSegmentedControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMSegmentedControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4602AAE2F784B593A66EC73F24B801E6 /* XMSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XMSegmentedControl.swift; sourceTree = "<group>"; };
 		47272F87C7B80525358923703E05BAD9 /* Pods-XMSegmentedControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMSegmentedControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		492A2F421EF1D4DC6416D7F4448984F2 /* XMSegmentedControl.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XMSegmentedControl.bundle; path = XMSegmentedControl.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0D38D727BB68A841590226E0E60332 /* XMSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
 		6220BA128E22BCAE7F7640F0B3D10AA8 /* Pods-XMSegmentedControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMSegmentedControl_Example-resources.sh"; sourceTree = "<group>"; };
-		62C7A9B0885E5B00D2FCF4A2137DD26C /* XMSegmentedControl.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMSegmentedControl.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		639C0F1176E571915CBA8034C575538E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		650252E8AF8355815A7A8163F5C781E3 /* Pods-XMSegmentedControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMSegmentedControl_Tests-umbrella.h"; sourceTree = "<group>"; };
 		67094B5687F5E956E803D8623844F70D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A4CBDD53193FA1689E32641C25B1108 /* Pods-XMSegmentedControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMSegmentedControl_Example-dummy.m"; sourceTree = "<group>"; };
-		70C64F7743B2980BEC2C3068C59698E4 /* Pods_XMSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMSegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76C825342FB06B4B8687DBD31566AD41 /* XMSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		77CF7002961D6EBCAC25F629E41853FF /* Pods-XMSegmentedControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMSegmentedControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7C400ECFC503251CC9A8DF6FC1AAF8B8 /* Pods-XMSegmentedControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMSegmentedControl_Tests-resources.sh"; sourceTree = "<group>"; };
-		84BB7E6C4612EF7251E839B15DF35F0C /* Pods-XMSegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XMSegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
-		90314A2BCFE578149030608BABC13179 /* Pods-XMSegmentedControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMSegmentedControl_Example-umbrella.h"; sourceTree = "<group>"; };
-		9B0BEDC2DA143B7038A18D6798D705CA /* XMSegmentedControl-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "XMSegmentedControl-Private.xcconfig"; sourceTree = "<group>"; };
-		B9EBB19E3F0039B3D70013E72B9F50B1 /* Pods-XMSegmentedControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMSegmentedControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7DCB3C94D54DDD45DAD2403812A4FC2A /* XMSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMSegmentedControl.framework; path = XMSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BB7E6C4612EF7251E839B15DF35F0C /* Pods-XMSegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XMSegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
+		8C27307EC391DC5B9FDDA93270FBFCBA /* Pods_XMSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMSegmentedControl_Tests.framework; path = "Pods-XMSegmentedControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C0E974B4FE244214C7B9F77D22361D0 /* Pods-XMSegmentedControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMSegmentedControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		A91DEB1CB94ACAC6E0EFD24981070813 /* Pods-XMSegmentedControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMSegmentedControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BC910016DABF01E83F9DA0051CA8277A /* Pods-XMSegmentedControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMSegmentedControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C37B2CDE7CF19E55C5A565F71876598E /* Pods-XMSegmentedControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMSegmentedControl_Example-dummy.m"; sourceTree = "<group>"; };
 		C5831402C7332603EEB41E58EA9E4C05 /* Pods-XMSegmentedControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMSegmentedControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8608CA09C634CC7BFF81B81B67EB1D6 /* Pods-XMSegmentedControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMSegmentedControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CD14D7BF98C4FE065620F69FCEBD1501 /* Pods_XMSegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMSegmentedControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF93C3C5B467D8BDD5F7F43AA9E6E9CB /* XMSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XMSegmentedControl.modulemap; sourceTree = "<group>"; };
-		DDA4364E7F58549696D9FF9C0E8C4563 /* XMSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMSegmentedControl.xcconfig; sourceTree = "<group>"; };
-		E8B4B568E0E4F27365CA127193A45BC0 /* XMSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XMSegmentedControl.swift; sourceTree = "<group>"; };
-		E95BEE585C0370F969D7ACC439F4B830 /* XMSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMSegmentedControl-dummy.m"; sourceTree = "<group>"; };
-		EC591323CC7FEC65F9A047D98E0F74A6 /* Pods-XMSegmentedControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XMSegmentedControl_Example.modulemap"; sourceTree = "<group>"; };
+		C8D311A2C21171597EB37A475165C15F /* XMSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E4180007F1878F9D0B4DD8EF33CE5E86 /* XMSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		EC591323CC7FEC65F9A047D98E0F74A6 /* Pods-XMSegmentedControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XMSegmentedControl_Example.modulemap"; sourceTree = "<group>"; };
+		EFC344890F75B885970253671714930A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06B2DD851551A23BE74BC8162E903E5 /* XMSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XMSegmentedControl.modulemap; sourceTree = "<group>"; };
+		F6CF6E044F169937C15159EAFD49356C /* Pods-XMSegmentedControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMSegmentedControl_Example-umbrella.h"; sourceTree = "<group>"; };
+		F9BBC33AFDE9594AF8B0E7ED8ABC6FA7 /* ResourceBundle-XMSegmentedControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XMSegmentedControl-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		062D2F9A53DDF4B62D5B4541A652B1D7 /* Frameworks */ = {
+		0499EF71E3187F1AB8B3F3DAFFCC6282 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				637794CC5EC94FD2FB0871DFB29FD684 /* Foundation.framework in Frameworks */,
+				D4C2294B0DB3959B6369B947A4C1594F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		21360B058C03689DEE2684D54F907ED3 /* Frameworks */ = {
+		1294EF9131D04523292983D72BEB78B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CABAFD5BF0D535F8775CC7B9584A577 /* Foundation.framework in Frameworks */,
+				A2B5D5EE47DD07141917BF8700D5B60F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9340E86ACABDB4194FA97BBD6A066FFC /* Frameworks */ = {
+		23DA642F3EF785BF2BFA34FD433EB964 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D102A0480C053CE19457DFD24014F9F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA64821E294528B93406ABC0290D1318 /* Frameworks */ = {
+		AB17D2343AADA139806248D980A7D0D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990581B535A444C07746FF43A7ADCD0C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				1D844A19A7DD73A6B6D75C80DAE4374B /* Pod */,
-				DC3FBE0F2F76EA4748B5B23AA230F426 /* Support Files */,
+				8A473274F69174F0C565B680E9033E00 /* Support Files */,
 			);
 			name = XMSegmentedControl;
 			path = ../..;
@@ -131,15 +131,19 @@
 			children = (
 				CAAD7EBC23C204CCC55413AE57A675EB /* Classes */,
 			);
+			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+		59BB055C1B2C5712A4A29A2C5047F0E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0527766346ABBF28CCB16914B83A8492 /* Foundation.framework */,
+				054F30DAED31B5A7DF3DEBAAD8123ED7 /* Pods_XMSegmentedControl_Example.framework */,
+				8C27307EC391DC5B9FDDA93270FBFCBA /* Pods_XMSegmentedControl_Tests.framework */,
+				492A2F421EF1D4DC6416D7F4448984F2 /* XMSegmentedControl.bundle */,
+				7DCB3C94D54DDD45DAD2403812A4FC2A /* XMSegmentedControl.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		70BB57A07D7CC745E93C7731FA9490AB /* Targets Support Files */ = {
@@ -151,15 +155,38 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F7678E3C4045F0152ACCB77936A2E97A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				59BB055C1B2C5712A4A29A2C5047F0E2 /* Products */,
 				70BB57A07D7CC745E93C7731FA9490AB /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8A473274F69174F0C565B680E9033E00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFC344890F75B885970253671714930A /* Info.plist */,
+				F9BBC33AFDE9594AF8B0E7ED8ABC6FA7 /* ResourceBundle-XMSegmentedControl-Info.plist */,
+				F06B2DD851551A23BE74BC8162E903E5 /* XMSegmentedControl.modulemap */,
+				E4180007F1878F9D0B4DD8EF33CE5E86 /* XMSegmentedControl.xcconfig */,
+				0D03494507EC372B787FDE6013E626D3 /* XMSegmentedControl-dummy.m */,
+				4E0D38D727BB68A841590226E0E60332 /* XMSegmentedControl-prefix.pch */,
+				C8D311A2C21171597EB37A475165C15F /* XMSegmentedControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XMSegmentedControl";
 			sourceTree = "<group>";
 		};
 		96F95393CB0616F89BFCFE07B335B9BD /* Pods-XMSegmentedControl_Example */ = {
@@ -169,12 +196,12 @@
 				EC591323CC7FEC65F9A047D98E0F74A6 /* Pods-XMSegmentedControl_Example.modulemap */,
 				C5831402C7332603EEB41E58EA9E4C05 /* Pods-XMSegmentedControl_Example-acknowledgements.markdown */,
 				C8608CA09C634CC7BFF81B81B67EB1D6 /* Pods-XMSegmentedControl_Example-acknowledgements.plist */,
-				6A4CBDD53193FA1689E32641C25B1108 /* Pods-XMSegmentedControl_Example-dummy.m */,
+				C37B2CDE7CF19E55C5A565F71876598E /* Pods-XMSegmentedControl_Example-dummy.m */,
 				47272F87C7B80525358923703E05BAD9 /* Pods-XMSegmentedControl_Example-frameworks.sh */,
 				6220BA128E22BCAE7F7640F0B3D10AA8 /* Pods-XMSegmentedControl_Example-resources.sh */,
-				90314A2BCFE578149030608BABC13179 /* Pods-XMSegmentedControl_Example-umbrella.h */,
-				3A4799946C72BE1B3F7BA0B0A5B79F7B /* Pods-XMSegmentedControl_Example.debug.xcconfig */,
-				B9EBB19E3F0039B3D70013E72B9F50B1 /* Pods-XMSegmentedControl_Example.release.xcconfig */,
+				F6CF6E044F169937C15159EAFD49356C /* Pods-XMSegmentedControl_Example-umbrella.h */,
+				22EE1EEB86721F5FDA904B0196EBC4E8 /* Pods-XMSegmentedControl_Example.debug.xcconfig */,
+				77CF7002961D6EBCAC25F629E41853FF /* Pods-XMSegmentedControl_Example.release.xcconfig */,
 			);
 			name = "Pods-XMSegmentedControl_Example";
 			path = "Target Support Files/Pods-XMSegmentedControl_Example";
@@ -183,7 +210,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,20 +218,10 @@
 		CAAD7EBC23C204CCC55413AE57A675EB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E8B4B568E0E4F27365CA127193A45BC0 /* XMSegmentedControl.swift */,
+				4602AAE2F784B593A66EC73F24B801E6 /* XMSegmentedControl.swift */,
 			);
+			name = Classes;
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD14D7BF98C4FE065620F69FCEBD1501 /* Pods_XMSegmentedControl_Example.framework */,
-				70C64F7743B2980BEC2C3068C59698E4 /* Pods_XMSegmentedControl_Tests.framework */,
-				62C7A9B0885E5B00D2FCF4A2137DD26C /* XMSegmentedControl.bundle */,
-				26C83727283023284095345BB1DE6E2B /* XMSegmentedControl.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D764057E52E05A4038A509C0C7F8AE34 /* Pods-XMSegmentedControl_Tests */ = {
@@ -214,30 +231,15 @@
 				84BB7E6C4612EF7251E839B15DF35F0C /* Pods-XMSegmentedControl_Tests.modulemap */,
 				2B41D59A4861FCFE8773CFBC390D51A8 /* Pods-XMSegmentedControl_Tests-acknowledgements.markdown */,
 				1D82A3D3B28B0167C0A0765891EDC806 /* Pods-XMSegmentedControl_Tests-acknowledgements.plist */,
-				11A0057533E03EC03897205C24DA0708 /* Pods-XMSegmentedControl_Tests-dummy.m */,
+				9C0E974B4FE244214C7B9F77D22361D0 /* Pods-XMSegmentedControl_Tests-dummy.m */,
 				0C35397213F18CC74F6E29524C8B4D04 /* Pods-XMSegmentedControl_Tests-frameworks.sh */,
 				7C400ECFC503251CC9A8DF6FC1AAF8B8 /* Pods-XMSegmentedControl_Tests-resources.sh */,
-				650252E8AF8355815A7A8163F5C781E3 /* Pods-XMSegmentedControl_Tests-umbrella.h */,
-				1BF1ADBEE08E9B961C077DCB5A3D7715 /* Pods-XMSegmentedControl_Tests.debug.xcconfig */,
-				1E16063C5B1A75A1232035A8ED420E72 /* Pods-XMSegmentedControl_Tests.release.xcconfig */,
+				A91DEB1CB94ACAC6E0EFD24981070813 /* Pods-XMSegmentedControl_Tests-umbrella.h */,
+				BC910016DABF01E83F9DA0051CA8277A /* Pods-XMSegmentedControl_Tests.debug.xcconfig */,
+				38FCA4AB5B96225B923B0EC5379869BB /* Pods-XMSegmentedControl_Tests.release.xcconfig */,
 			);
 			name = "Pods-XMSegmentedControl_Tests";
 			path = "Target Support Files/Pods-XMSegmentedControl_Tests";
-			sourceTree = "<group>";
-		};
-		DC3FBE0F2F76EA4748B5B23AA230F426 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				639C0F1176E571915CBA8034C575538E /* Info.plist */,
-				CF93C3C5B467D8BDD5F7F43AA9E6E9CB /* XMSegmentedControl.modulemap */,
-				DDA4364E7F58549696D9FF9C0E8C4563 /* XMSegmentedControl.xcconfig */,
-				9B0BEDC2DA143B7038A18D6798D705CA /* XMSegmentedControl-Private.xcconfig */,
-				E95BEE585C0370F969D7ACC439F4B830 /* XMSegmentedControl-dummy.m */,
-				0CDB3C43824266D6BED02C392BECC23B /* XMSegmentedControl-prefix.pch */,
-				76C825342FB06B4B8687DBD31566AD41 /* XMSegmentedControl-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XMSegmentedControl";
 			sourceTree = "<group>";
 		};
 		F7678E3C4045F0152ACCB77936A2E97A /* Development Pods */ = {
@@ -251,95 +253,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C57B32BE68BB83D7D0B65179D365F77 /* Headers */ = {
+		9D3434B3D5056C8DB5A41E50C4E55354 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768CE7169D6225D1FC8C928A7325D046 /* XMSegmentedControl-umbrella.h in Headers */,
+				51FADBF8379C92F0AA50C804A1EAE49D /* XMSegmentedControl-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66C878CD2D1F05B1A86277A9E2463EED /* Headers */ = {
+		A16784F751B624C141C5EACBAEF8D8E9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85AFE5E1C2AA965128FD45CF934D57DE /* Pods-XMSegmentedControl_Tests-umbrella.h in Headers */,
+				C41D645081C779046CD1694EF4FB9814 /* Pods-XMSegmentedControl_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B19D8EEDC611BB3D7700508630C9E0A2 /* Headers */ = {
+		E69BAF66DD5E1C7A316D708A1840AC80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2477018F4ECF72E984106CB3187D9018 /* Pods-XMSegmentedControl_Example-umbrella.h in Headers */,
+				DE8625329F780B82F8A74AA2FC4ACBD4 /* Pods-XMSegmentedControl_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		025A2230F0CB626E9ECE3F87866EA36B /* Pods-XMSegmentedControl_Tests */ = {
+		355C004776EAB799631E9954945B807B /* XMSegmentedControl-XMSegmentedControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C59B1D4BC078CDD68DD6023B6BF66F72 /* Build configuration list for PBXNativeTarget "Pods-XMSegmentedControl_Tests" */;
+			buildConfigurationList = 629E5E712614A16C9B8A1C37FD5B59C4 /* Build configuration list for PBXNativeTarget "XMSegmentedControl-XMSegmentedControl" */;
 			buildPhases = (
-				6B3B081B305FCC2382990E10EA39A7CF /* Sources */,
-				21360B058C03689DEE2684D54F907ED3 /* Frameworks */,
-				66C878CD2D1F05B1A86277A9E2463EED /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9EC55E7D78575CE84D9DB5F35DEDE1F0 /* PBXTargetDependency */,
-			);
-			name = "Pods-XMSegmentedControl_Tests";
-			productName = "Pods-XMSegmentedControl_Tests";
-			productReference = 70C64F7743B2980BEC2C3068C59698E4 /* Pods_XMSegmentedControl_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		0B1B3B836E038A0660FE130DDB313F51 /* Pods-XMSegmentedControl_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B0973FA6BA3055FBD90DFA7A4B6F4117 /* Build configuration list for PBXNativeTarget "Pods-XMSegmentedControl_Example" */;
-			buildPhases = (
-				0784260C6B7989B2FD36F5CB7D874A1E /* Sources */,
-				062D2F9A53DDF4B62D5B4541A652B1D7 /* Frameworks */,
-				B19D8EEDC611BB3D7700508630C9E0A2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A1C4565A06B4FBC65A75D8D0B466DF1B /* PBXTargetDependency */,
-			);
-			name = "Pods-XMSegmentedControl_Example";
-			productName = "Pods-XMSegmentedControl_Example";
-			productReference = CD14D7BF98C4FE065620F69FCEBD1501 /* Pods_XMSegmentedControl_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D5066DD063CF59AFBD450F5E2FDEEFF6 /* XMSegmentedControl */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F286C80E1FD992D00019F4218BADB604 /* Build configuration list for PBXNativeTarget "XMSegmentedControl" */;
-			buildPhases = (
-				B994E9C5A5270D9C823E5436CEE3F32F /* Sources */,
-				9340E86ACABDB4194FA97BBD6A066FFC /* Frameworks */,
-				2F26B0E431F17F00E30A40359198DA03 /* Resources */,
-				0C57B32BE68BB83D7D0B65179D365F77 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A0C9413DCCB1095224B6C188CB2992D9 /* PBXTargetDependency */,
-			);
-			name = XMSegmentedControl;
-			productName = XMSegmentedControl;
-			productReference = 26C83727283023284095345BB1DE6E2B /* XMSegmentedControl.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DF5C3949B1A921A6B7F8732D78F10000 /* XMSegmentedControl-XMSegmentedControl */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75D12705262FE849C528D271E885FB19 /* Build configuration list for PBXNativeTarget "XMSegmentedControl-XMSegmentedControl" */;
-			buildPhases = (
-				2B564F84B92F59A5BCB9B60F270FBA6B /* Sources */,
-				DA64821E294528B93406ABC0290D1318 /* Frameworks */,
-				F6FBBC025C953A544C3FDCA9A559100D /* Resources */,
+				A70721F84C3FF25FA06E1B5110907C0B /* Sources */,
+				23DA642F3EF785BF2BFA34FD433EB964 /* Frameworks */,
+				1FFBF84F202F05CDCA457A344DA3EFE5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -347,8 +294,63 @@
 			);
 			name = "XMSegmentedControl-XMSegmentedControl";
 			productName = "XMSegmentedControl-XMSegmentedControl";
-			productReference = 62C7A9B0885E5B00D2FCF4A2137DD26C /* XMSegmentedControl.bundle */;
+			productReference = 492A2F421EF1D4DC6416D7F4448984F2 /* XMSegmentedControl.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		7C6B9F5931CE8A78A0F4F059233A24D3 /* Pods-XMSegmentedControl_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F9B9E5A8AF61AF36963F36A4A3E2ABB /* Build configuration list for PBXNativeTarget "Pods-XMSegmentedControl_Example" */;
+			buildPhases = (
+				B64A787B28CBE9E9FE96A4422EC4AD54 /* Sources */,
+				1294EF9131D04523292983D72BEB78B9 /* Frameworks */,
+				E69BAF66DD5E1C7A316D708A1840AC80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CAE18BEAFD2F193FBC5854E1537699 /* PBXTargetDependency */,
+			);
+			name = "Pods-XMSegmentedControl_Example";
+			productName = "Pods-XMSegmentedControl_Example";
+			productReference = 054F30DAED31B5A7DF3DEBAAD8123ED7 /* Pods_XMSegmentedControl_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A7A44BD825F89F751CE7B54974DDE3E /* XMSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED2BED0429BDFCA9D4B44D890B2C51A /* Build configuration list for PBXNativeTarget "XMSegmentedControl" */;
+			buildPhases = (
+				805CAA7D81AC19AF206AB09160686B2E /* Sources */,
+				0499EF71E3187F1AB8B3F3DAFFCC6282 /* Frameworks */,
+				BC916475F9B25F7FB306DEC19E3BAFAA /* Resources */,
+				9D3434B3D5056C8DB5A41E50C4E55354 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA248B94E3D8A473328FE183BC8F967 /* PBXTargetDependency */,
+			);
+			name = XMSegmentedControl;
+			productName = XMSegmentedControl;
+			productReference = 7DCB3C94D54DDD45DAD2403812A4FC2A /* XMSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B056962FABA3966483A9775C622E6938 /* Pods-XMSegmentedControl_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CCAA085B98B87F61ECA8D0B0082CE1A /* Build configuration list for PBXNativeTarget "Pods-XMSegmentedControl_Tests" */;
+			buildPhases = (
+				27F2674A9B5B5F8F6F4A6DD516C9DDC9 /* Sources */,
+				AB17D2343AADA139806248D980A7D0D9 /* Frameworks */,
+				A16784F751B624C141C5EACBAEF8D8E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57588098EDA974D30A726B75AC4B00A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-XMSegmentedControl_Tests";
+			productName = "Pods-XMSegmentedControl_Tests";
+			productReference = 8C27307EC391DC5B9FDDA93270FBFCBA /* Pods_XMSegmentedControl_Tests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -356,7 +358,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -367,97 +369,147 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = 59BB055C1B2C5712A4A29A2C5047F0E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B1B3B836E038A0660FE130DDB313F51 /* Pods-XMSegmentedControl_Example */,
-				025A2230F0CB626E9ECE3F87866EA36B /* Pods-XMSegmentedControl_Tests */,
-				D5066DD063CF59AFBD450F5E2FDEEFF6 /* XMSegmentedControl */,
-				DF5C3949B1A921A6B7F8732D78F10000 /* XMSegmentedControl-XMSegmentedControl */,
+				7C6B9F5931CE8A78A0F4F059233A24D3 /* Pods-XMSegmentedControl_Example */,
+				B056962FABA3966483A9775C622E6938 /* Pods-XMSegmentedControl_Tests */,
+				9A7A44BD825F89F751CE7B54974DDE3E /* XMSegmentedControl */,
+				355C004776EAB799631E9954945B807B /* XMSegmentedControl-XMSegmentedControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2F26B0E431F17F00E30A40359198DA03 /* Resources */ = {
+		1FFBF84F202F05CDCA457A344DA3EFE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E72B6A61F309B8B0073D6B46F03F8C47 /* XMSegmentedControl.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6FBBC025C953A544C3FDCA9A559100D /* Resources */ = {
+		BC916475F9B25F7FB306DEC19E3BAFAA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FB9502D855D09C4D2BA09E68E5041B /* XMSegmentedControl.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0784260C6B7989B2FD36F5CB7D874A1E /* Sources */ = {
+		27F2674A9B5B5F8F6F4A6DD516C9DDC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D22182FAF40519F2CFB94B650CD59E5B /* Pods-XMSegmentedControl_Example-dummy.m in Sources */,
+				82C7A3CEAA3AD599B26F0C946CE611C6 /* Pods-XMSegmentedControl_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B564F84B92F59A5BCB9B60F270FBA6B /* Sources */ = {
+		805CAA7D81AC19AF206AB09160686B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34029175E2380521FE2FF847412856DC /* XMSegmentedControl-dummy.m in Sources */,
+				3C5EA5EECAAAE297E64E6731913C10DD /* XMSegmentedControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70721F84C3FF25FA06E1B5110907C0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B3B081B305FCC2382990E10EA39A7CF /* Sources */ = {
+		B64A787B28CBE9E9FE96A4422EC4AD54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCF23BC4545CC5EE652F516C7A77A3F /* Pods-XMSegmentedControl_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B994E9C5A5270D9C823E5436CEE3F32F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7CD11F9DB2EF4ED72FF5C962960BC4A /* XMSegmentedControl-dummy.m in Sources */,
-				47EF90A2956CA921F50108503A0D7659 /* XMSegmentedControl.swift in Sources */,
+				40A5CAABC9B63E792777C9522E95630A /* Pods-XMSegmentedControl_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9EC55E7D78575CE84D9DB5F35DEDE1F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XMSegmentedControl;
-			target = D5066DD063CF59AFBD450F5E2FDEEFF6 /* XMSegmentedControl */;
-			targetProxy = 8C5BD7CFC08FF1799A79BA1E1B0E4F1E /* PBXContainerItemProxy */;
-		};
-		A0C9413DCCB1095224B6C188CB2992D9 /* PBXTargetDependency */ = {
+		3FA248B94E3D8A473328FE183BC8F967 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "XMSegmentedControl-XMSegmentedControl";
-			target = DF5C3949B1A921A6B7F8732D78F10000 /* XMSegmentedControl-XMSegmentedControl */;
-			targetProxy = CFF698435089F4B02573565EADF77429 /* PBXContainerItemProxy */;
+			target = 355C004776EAB799631E9954945B807B /* XMSegmentedControl-XMSegmentedControl */;
+			targetProxy = 70DF7D0F4BF5FC28B74E0574F41AA06D /* PBXContainerItemProxy */;
 		};
-		A1C4565A06B4FBC65A75D8D0B466DF1B /* PBXTargetDependency */ = {
+		57588098EDA974D30A726B75AC4B00A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XMSegmentedControl;
-			target = D5066DD063CF59AFBD450F5E2FDEEFF6 /* XMSegmentedControl */;
-			targetProxy = 96A187180D0A73A8FAD753F4F9A50AD0 /* PBXContainerItemProxy */;
+			target = 9A7A44BD825F89F751CE7B54974DDE3E /* XMSegmentedControl */;
+			targetProxy = A44182AFE3F0837C51FE3F7924CB94CF /* PBXContainerItemProxy */;
+		};
+		65CAE18BEAFD2F193FBC5854E1537699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMSegmentedControl;
+			target = 9A7A44BD825F89F751CE7B54974DDE3E /* XMSegmentedControl */;
+			targetProxy = 58EF54A4381EC51A122380610460CACB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+		0C01C7495ED9F15FEB616C218CC7706E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4180007F1878F9D0B4DD8EF33CE5E86 /* XMSegmentedControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XMSegmentedControl/XMSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMSegmentedControl/XMSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XMSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		218CC8528384F5657CD65BB0E0A8A0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4180007F1878F9D0B4DD8EF33CE5E86 /* XMSegmentedControl.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XMSegmentedControl";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XMSegmentedControl/ResourceBundle-XMSegmentedControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XMSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -471,10 +523,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -482,76 +538,51 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		16959C02259C7CB16645BD07C5F7D0D4 /* Debug */ = {
+		96C082BF0B0F522E47E1BF2F581E50CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A4799946C72BE1B3F7BA0B0A5B79F7B /* Pods-XMSegmentedControl_Example.debug.xcconfig */;
+			baseConfigurationReference = E4180007F1878F9D0B4DD8EF33CE5E86 /* XMSegmentedControl.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-XMSegmentedControl_Example/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XMSegmentedControl/XMSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMSegmentedControl/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-XMSegmentedControl_Example/Pods-XMSegmentedControl_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/XMSegmentedControl/XMSegmentedControl.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_XMSegmentedControl_Example;
+				PRODUCT_NAME = XMSegmentedControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		18E45FED685FF397DC8DF91CD6C18635 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BF1ADBEE08E9B961C077DCB5A3D7715 /* Pods-XMSegmentedControl_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-XMSegmentedControl_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-XMSegmentedControl_Tests/Pods-XMSegmentedControl_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_XMSegmentedControl_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -565,11 +596,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -582,127 +616,38 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		78A166F07B0352832AC9F099685DAB5C /* Release */ = {
+		AA481BC9BC393720CB27F6BB0C528B4B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9EBB19E3F0039B3D70013E72B9F50B1 /* Pods-XMSegmentedControl_Example.release.xcconfig */;
+			baseConfigurationReference = 38FCA4AB5B96225B923B0EC5379869BB /* Pods-XMSegmentedControl_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-XMSegmentedControl_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-XMSegmentedControl_Example/Pods-XMSegmentedControl_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_XMSegmentedControl_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8BF634636CB54A66C7E7B13FA3FEC35B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B0BEDC2DA143B7038A18D6798D705CA /* XMSegmentedControl-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/XMSegmentedControl/XMSegmentedControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XMSegmentedControl/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XMSegmentedControl/XMSegmentedControl.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = XMSegmentedControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ACAF1D37DD7BA7DB696C1EB4CBBF60A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B0BEDC2DA143B7038A18D6798D705CA /* XMSegmentedControl-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/XMSegmentedControl/XMSegmentedControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XMSegmentedControl/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XMSegmentedControl/XMSegmentedControl.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = XMSegmentedControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C62B5C2EE8A70B56570A8D92C9AB4EEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B0BEDC2DA143B7038A18D6798D705CA /* XMSegmentedControl-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = XMSegmentedControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		CE904E762E6928947A0D73380AF9DA33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E16063C5B1A75A1232035A8ED420E72 /* Pods-XMSegmentedControl_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-XMSegmentedControl_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XMSegmentedControl_Tests/Pods-XMSegmentedControl_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_XMSegmentedControl_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -712,17 +657,129 @@
 			};
 			name = Release;
 		};
-		E2271F548D351E41D59738C496828082 /* Debug */ = {
+		AE4193C7970867D56E3D665DC9A6FB8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B0BEDC2DA143B7038A18D6798D705CA /* XMSegmentedControl-Private.xcconfig */;
+			baseConfigurationReference = E4180007F1878F9D0B4DD8EF33CE5E86 /* XMSegmentedControl.xcconfig */;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XMSegmentedControl";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/XMSegmentedControl/ResourceBundle-XMSegmentedControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = XMSegmentedControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
+			name = Release;
+		};
+		AEDEA959DAB8AF50EC98E7A480BB4492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC910016DABF01E83F9DA0051CA8277A /* Pods-XMSegmentedControl_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XMSegmentedControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMSegmentedControl_Tests/Pods-XMSegmentedControl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XMSegmentedControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
 			name = Debug;
+		};
+		C982EC518710F89CA91EDB3486184840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22EE1EEB86721F5FDA904B0196EBC4E8 /* Pods-XMSegmentedControl_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XMSegmentedControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMSegmentedControl_Example/Pods-XMSegmentedControl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XMSegmentedControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC0CC3848E478BBC4F8A054E2500D5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77CF7002961D6EBCAC25F629E41853FF /* Pods-XMSegmentedControl_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XMSegmentedControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMSegmentedControl_Example/Pods-XMSegmentedControl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XMSegmentedControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -730,44 +787,44 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75D12705262FE849C528D271E885FB19 /* Build configuration list for PBXNativeTarget "XMSegmentedControl-XMSegmentedControl" */ = {
+		2F9B9E5A8AF61AF36963F36A4A3E2ABB /* Build configuration list for PBXNativeTarget "Pods-XMSegmentedControl_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2271F548D351E41D59738C496828082 /* Debug */,
-				C62B5C2EE8A70B56570A8D92C9AB4EEE /* Release */,
+				C982EC518710F89CA91EDB3486184840 /* Debug */,
+				DC0CC3848E478BBC4F8A054E2500D5DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0973FA6BA3055FBD90DFA7A4B6F4117 /* Build configuration list for PBXNativeTarget "Pods-XMSegmentedControl_Example" */ = {
+		629E5E712614A16C9B8A1C37FD5B59C4 /* Build configuration list for PBXNativeTarget "XMSegmentedControl-XMSegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16959C02259C7CB16645BD07C5F7D0D4 /* Debug */,
-				78A166F07B0352832AC9F099685DAB5C /* Release */,
+				218CC8528384F5657CD65BB0E0A8A0DB /* Debug */,
+				AE4193C7970867D56E3D665DC9A6FB8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C59B1D4BC078CDD68DD6023B6BF66F72 /* Build configuration list for PBXNativeTarget "Pods-XMSegmentedControl_Tests" */ = {
+		9CCAA085B98B87F61ECA8D0B0082CE1A /* Build configuration list for PBXNativeTarget "Pods-XMSegmentedControl_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18E45FED685FF397DC8DF91CD6C18635 /* Debug */,
-				CE904E762E6928947A0D73380AF9DA33 /* Release */,
+				AEDEA959DAB8AF50EC98E7A480BB4492 /* Debug */,
+				AA481BC9BC393720CB27F6BB0C528B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F286C80E1FD992D00019F4218BADB604 /* Build configuration list for PBXNativeTarget "XMSegmentedControl" */ = {
+		DED2BED0429BDFCA9D4B44D890B2C51A /* Build configuration list for PBXNativeTarget "XMSegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BF634636CB54A66C7E7B13FA3FEC35B /* Debug */,
-				ACAF1D37DD7BA7DB696C1EB4CBBF60A0 /* Release */,
+				96C082BF0B0F522E47E1BF2F581E50CD /* Debug */,
+				0C01C7495ED9F15FEB616C218CC7706E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
